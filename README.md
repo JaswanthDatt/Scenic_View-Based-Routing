@@ -16,5 +16,5 @@ This process takes a bit of time since every time a marker place has to be fed,a
 Later,this data is sent to the database.We have not opened the SQL 2012 db connection till the moment all markers have been decoded.For performance efficiency,we have used <i>SQLBULKCopy</i> to transfer this dataset to database,where we have done further querying to eliminate few places.
 The outcome is list of 8 waypoints which are scenic,through which the path between source and <i>the University of Akron</i> has been plotted.
 
-
+<img src="C:/Users/jasda_000/Documents/GitHub/Scenic_View-Based-Routing/Scenic_Route_Final.png"/>
 
