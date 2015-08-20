@@ -16,5 +16,5 @@ This process takes a bit of time since every time a marker place has to be fed,a
 Later,this data is sent to the database.We have not opened the SQL 2012 db connection till the moment all markers have been decoded.For performance efficiency,we have used <i>SQLBULKCopy</i> to transfer this dataset to database,where we have done further querying to eliminate few places.
 The outcome is list of 8 waypoints which are scenic,through which the path between source and <i>the University of Akron</i> has been plotted.
 
-
+<img src="https://cloud.githubusercontent.com/assets/9910374/9393075/0f7080c4-474e-11e5-985e-8c7b4f33a688.png"/>
 
